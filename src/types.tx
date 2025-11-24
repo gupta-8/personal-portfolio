@@ -1,0 +1,30 @@
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  tech: string[];
+  liveUrl?: string;
+  sourceUrl?: string;
+  featured?: boolean;
+}
+
+export interface AboutData {
+  name: string;
+  headline: string;
+  location: string;
+  shortBio: string;
+  philosophy: string[];
+  focusAreas: string[];
+  skills: {
+    core: string[];
+    wordpress: string[];
+    performanceOps: string[];
+  };
+}
+
+export interface SocialLink {
+  name: string;
+  url: string;
+  icon: string;
+}
