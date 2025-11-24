@@ -1,0 +1,19 @@
+/* This file is kept for compatibility - main styles are in styles/globals.css */
+@import './styles/globals.css';
+
+/* Ensure pure black background in dark mode */
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 50%, #f1f5f9 100%);
+}
+
+.dark body,
+body.dark {
+  background: linear-gradient(to bottom right, #020617 0%, #0f172a 50%, #020617 100%) !important;
+}
