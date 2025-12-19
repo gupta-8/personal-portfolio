@@ -568,10 +568,6 @@ in the Software without restriction...
 
 **Harsh Gupta** - [@harshguptame](https://x.com/harshguptame)
 
-Project Link: [https://github.com/gupta-8/portfolio](https://github.com/gupta-8/portfolio)
-
-Website: [https://harshgupta.me](https://harshgupta.me)
-
 ---
 
 <div align="center">
